@@ -1,0 +1,141 @@
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(150, 150, 150, 1);
+    border-width: 0px;
+    border-radius: 0px;
+    opacity: 0.8;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(150, 150, 150, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 252, 252, 1);
+    background-color: rgba(150, 150, 150, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 252, 252, 1);
+    background-color: rgba(161, 161, 161, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #a1a1a1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #a1a1a1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #a1a1a1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #969696;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+#hero-area {
+  padding: 70px 0px 50px 0px; 
+  background: #b4b4b4;
+  color: #fff;
+}
+
+#niceface {
+    background-image: url('../Images/niceface.jpg');
+    background-size: cover, contain;
+    border-color: #ffffff;
+    border-style: solid;
+    background-repeat: no-repeat;
+   
+    min-width: 320px;
+    height: 480px;
+
+
+}
+h1.title {
+    color: #ffff00;
+    font-family: 'Bevan', cursive;
+    text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
+    padding-top: 120px;
+    font-size: 35px;
+}
+.btn-sample { 
+  color: #918D8D; 
+  background-color: #D0CCC8; 
+  border-color: #d0ccc8; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #918D8D; 
+  background-color: #C2C2C2; 
+  border-color: #d0ccc8; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #D0CCC8; 
+  border-color: #d0ccc8; 
+} 
+ 
+.btn-sample .badge { 
+  color: #D0CCC8; 
+  background-color: #918D8D; 
+}
+
+#uslugi {
+  padding: 70px 0px 50px 0px; 
+  background: #ffffff;
+  color: #000000;
+  min-height: 420px;
+}
+
+h2.uslugi {
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
+    text-align:  justify;
+}
+
+
+
