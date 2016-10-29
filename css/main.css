@@ -1,44 +1,43 @@
 
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(255, 255, 255, 1);
+    color: #ffffff;
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(150, 150, 150, 1);
+    background-color: #212436;
     border-width: 0px;
     border-radius: 0px;
-    opacity: 0.8;
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(119, 119, 119, 1);
-    background-color: rgba(150, 150, 150, 1);
+    color: #ffffff;
+    background-color: #212436;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(255, 252, 252, 1);
-    background-color: rgba(150, 150, 150, 1);
+    color: #505050;
+    background-color: #FFCA0E;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(255, 252, 252, 1);
-    background-color: rgba(161, 161, 161, 1);
+    background-color: #212436;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #a1a1a1;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #a1a1a1;
+    background-color: #2C3757;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #a1a1a1;
+    background-color: #2A314E;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #969696;
+    background-color: #2A314E;
 }
 
 body {
@@ -53,8 +52,12 @@ body {
   backface-visibility: hidden;
 }
 
+#wrap-content{
+    margin-top: 50px;
+}
+
 #hero-area {
-  padding: 70px 0px 50px 0px; 
+  padding: 50px 0px 50px 0px; 
   background: #b4b4b4;
   color: #fff;
 }
@@ -62,22 +65,40 @@ body {
 #niceface {
     background-image: url('../Images/niceface.jpg');
     background-size: cover, contain;
-    border-color: #ffffff;
-    border-style: solid;
     background-repeat: no-repeat;
-   
     min-width: 320px;
     height: 480px;
-
-
 }
+
+#niceface-content{
+    margin-top: 150px;
+    text-align: center;
+}
+
 h1.title {
     color: #ffff00;
     font-family: 'Bevan', cursive;
     text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
-    padding-top: 120px;
-    font-size: 35px;
+    font-size: 40px;
 }
+
+p.title{
+    color: #2A314E;
+    font-size: 24px;
+}
+
+a#title{
+    background: #2A314E;
+    color: #ffffff;
+}
+
+a#title:hover{
+    color: #333333;
+    background: #FFCA0E;
+
+}
+
+
 .btn-sample { 
   color: #918D8D; 
   background-color: #D0CCC8; 
@@ -124,18 +145,47 @@ fieldset[disabled] .btn-sample.active {
   background-color: #918D8D; 
 }
 
-#uslugi {
-  padding: 70px 0px 50px 0px; 
-  background: #ffffff;
-  color: #000000;
-  min-height: 420px;
+section{
+    padding: 40px 0px 100px 0px;
 }
 
-h2.uslugi {
-    font-family: 'Droid Serif', serif;
+.section-header > h2 {
     font-weight: bold;
-    text-align:  justify;
+    font-size: 35px;
+}
+
+.section-header > p{
+    font-size: 20px;
+}
+
+.section-header{
+    color: #ffffff;
+    text-align: center;
+}
+
+#uslugi {
+  background: #FFCA0E;
 }
 
 
+.uslugi-particle {
+    text-align: center;
+    margin-top:50px;  
+}
 
+.uslugi-particle-inner{
+    min-height: 220px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
+
+#realizacje{
+    background: #2A314E;
+}
+
+#kontakt{
+    background: #000000;
+}
