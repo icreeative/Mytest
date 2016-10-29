@@ -1,29 +1,32 @@
+body{
+    position: relative;
+    overflow-y: scroll;
+}
 
-
-#custom-bootstrap-menu.navbar-default .navbar-brand {
+.navbar-brand {
     color: #ffffff;
 }
-#custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
-    background-color: #212436;
-    border-width: 0px;
-    border-radius: 0px;
 
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: #212436;
+    border: none;
 }
+
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: #ffffff;
     background-color: #212436;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #505050;
-    background-color: #FFCA0E;
+    color: #ffffff;
+    background-color: #2C3757;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(255, 252, 252, 1);
-    background-color: #212436;
+    color: #505050;
+    background-color: #FFCA0E;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #a1a1a1;
@@ -34,6 +37,7 @@
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #2A314E;
+    color: #ffffff;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
@@ -178,7 +182,7 @@ section{
     padding-top: 40px;
     padding-bottom: 20px;
     background: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid #dbab00;
     border-radius: 15px;
 }
 
