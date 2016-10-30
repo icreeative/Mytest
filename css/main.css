@@ -81,9 +81,9 @@ body {
 
 h1.title {
     color: #ffff00;
-    font-family: 'Bevan', cursive;
+    font-weight: bold;
     text-shadow: 1px 1px 3px #000000, -1px -1px 3px #000000;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 p.title{
